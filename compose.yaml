@@ -1,0 +1,14 @@
+name: tabi_ai
+
+services:
+  server:
+    build: .
+    ports:
+      - "5001:5000"
+    environment:
+      - PINECONE_API_KEY=${PINECONE_API_KEY}
+      - PINECONE_INDEX_NAME=${PINECONE_INDEX_NAME}
+      - OPENAI_API_KEY=${OPENAI_API_KEY}
+      - SERPER_API_KEY=${SERPER_API_KEY}
+      - MOCK_IMAGE_LINK=${MOCK_IMAGE_LINK}
+      - TABI_BOOKING_BASE_URL=${TABI_BOOKING_BASE_URL}

@@ -4,7 +4,8 @@ A service that provides APIs for planning trips and integrating a small recommen
 
 The project uses some Cloud services, you have to provide the keys to them like in the `.env.example` file in order to use. Or you can just view this repo as a simple example for developing.
 
-_Updated:_ I removed the `data.csv` for now due to privacy concerns.
+>[!NOTE]
+> I removed the `data.csv` for now due to privacy concerns.
 
 ## Technology
 

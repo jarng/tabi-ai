@@ -59,3 +59,7 @@ Make sure you have the collection persited. Then, you can run the whole system:
 
 - As developing mode: `make run`. This will start the server in development mode. The server will be running on `localhost:5000`.
 - As a Docker container: `docker compose up`. This will start the server. Used to integrate with other services, like Front-end application. The server will be running on `localhost:5001`.
+
+## License
+
+The project is licensed under the MIT License. See [LICENSE](./LICENSE) for more details.
